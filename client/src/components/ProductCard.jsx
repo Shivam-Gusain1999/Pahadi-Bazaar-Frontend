@@ -15,9 +15,9 @@ const ProductCard = ({ product }) => {
         <div className="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition duration-500 rounded-2xl"></div>
 
         {/* Product Image */}
-        <div className="flex items-center justify-center h-20 relative z-10">
+        <div className="flex items-center justify-center relative z-10">
           <img
-            className="group-hover:scale-110 transition-transform duration-300 max-h-36 object-contain drop-shadow-lg"
+            className="group-hover:scale-110 transition-transform duration-300 max-h-34 object-contain drop-shadow-lg"
             src={product.image[0]}
             alt={product.name}
           />

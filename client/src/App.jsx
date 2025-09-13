@@ -38,9 +38,9 @@ const App = () => {
     <Route path="/add-address" element={<AddAddress />} />
     <Route path="/my-orders" element={<MyOrders />} />
     <Route path="/seller" element={isSeller ? <SellerLayout></SellerLayout> : <SellerLogin></SellerLogin>}>
-   <Route index element={isSeller ? <AddProduct></AddProduct> : null}/>
-   <Route path="product-list" element={ <ProductList/> }/>
-   <Route path="orders" element={<Orders></Orders>}/>
+    <Route index element={isSeller ? <AddProduct></AddProduct> : null}/>
+    <Route path="product-list" element={ <ProductList/> }/>
+    <Route path="orders" element={<Orders></Orders>}/>
     </Route>
   </Routes>
 </div>

@@ -75,6 +75,12 @@ import pp from "./pp.png";
 import PPP from "./PPP.png";
 import pppp from "./pppp.png";
 import ppppp from "./ppppp.png";
+import buransh_squash from "./buransh_squash.png";
+import malta from "./malta.png";
+import amla from "./amla.png";
+import grapes from "./grapes.png";
+import kiwi from "./kiwi.png";
+import waiwai from "./waiwai.png";
 
 export const assets = {
   logo,
@@ -110,6 +116,12 @@ export const assets = {
   PPP,
   pppp,
   ppppp,
+  buransh_squash,
+  malta,
+  amla,
+  grapes,
+  kiwi,
+  waiwai,
 };
 
 export const categories = [
@@ -467,15 +479,31 @@ export const dummyProducts = [
   // Drinks
   {
     _id: "ek61j12k",
-    name: "Coca-Cola 1.5L",
-    category: "Drinks",
-    price: 80,
+    name: "Buransh Juice 1.5L",
+    category: "Juices",
+    price: 100,
     offerPrice: 75,
-    image: [coca_cola_image],
+    image: [buransh_squash],
     description: [
-      "Refreshing and fizzy",
-      "Perfect for parties and gatherings",
-      "Best served chilled",
+      "Made from fresh Rhododendron flowers of Uttarakhand",
+      "Boosts energy, detoxifies, and supports heart health",
+      "Enjoy chilled in summer or warm in winter",
+    ],
+    createdAt: "2025-03-25T07:17:46.018Z",
+    updatedAt: "2025-03-25T07:18:13.103Z",
+    inStock: true,
+  },
+  {
+    _id: "ek61j12k",
+    name: "Malta-Juice 1.5L",
+    category: "Juices",
+    price: 120,
+    offerPrice: 100,
+    image: [malta],
+    description: [
+      "Strengthens immunity and keeps you active all day",
+      "Made from sun-ripened malta oranges with no preservatives",
+      "A tangy-sweet taste that energizes and refreshes instantly",
     ],
     createdAt: "2025-03-25T07:17:46.018Z",
     updatedAt: "2025-03-25T07:18:13.103Z",
@@ -483,15 +511,15 @@ export const dummyProducts = [
   },
   {
     _id: "ek62j23k",
-    name: "Pepsi 1.5L",
-    category: "Drinks",
-    price: 78,
-    offerPrice: 73,
-    image: [pepsi_image],
+    name: "Amla-juice 1.5L",
+    category: "Juices",
+    price: 120,
+    offerPrice: 100,
+    image: [amla],
     description: [
-      "Chilled and refreshing",
-      "Perfect for celebrations",
-      "Best served cold",
+      "Rich source of Vitamin C to strengthen your defenses",
+      "Naturally supports digestion and body cleansing",
+      "Made from fresh amla with no artificial flavors or colors",
     ],
     createdAt: "2025-03-25T07:17:46.018Z",
     updatedAt: "2025-03-25T07:18:13.103Z",
@@ -499,15 +527,15 @@ export const dummyProducts = [
   },
   {
     _id: "ek63j34k",
-    name: "Sprite 1.5L",
-    category: "Drinks",
-    price: 79,
-    offerPrice: 74,
-    image: [sprite_image_1],
+    name: "Grapes-Juice 1.5L",
+    category: "Juices",
+    price: 175,
+    offerPrice: 150,
+    image: [grapes],
     description: [
-      "Refreshing citrus taste",
-      "Perfect for hot days",
-      "Best served chilled",
+      "Supports heart health and overall wellness",
+      "Made from freshly harvested grapes without additives",
+      "A natural sweet flavor that revitalizes your day",
     ],
     createdAt: "2025-03-25T07:17:46.018Z",
     updatedAt: "2025-03-25T07:18:13.103Z",
@@ -515,41 +543,26 @@ export const dummyProducts = [
   },
   {
     _id: "ek64j45k",
-    name: "Fanta 1.5L",
-    category: "Drinks",
-    price: 77,
-    offerPrice: 72,
-    image: [fanta_image_1],
+    name: "Kiwi_Juice 1.5L",
+    category: "Juices",
+    price: 220,
+    offerPrice: 200,
+    image: [kiwi],
     description: [
-      "Sweet and fizzy",
-      "Great for parties and gatherings",
-      "Best served cold",
+      "Boosts immunity and keeps you energized naturally",
+      "Made from handpicked kiwis with no added preservatives",
+      "A perfect blend of tangy sweetness to quench your thirst",
     ],
     createdAt: "2025-03-25T07:17:46.018Z",
     updatedAt: "2025-03-25T07:18:13.103Z",
     inStock: true,
   },
-  {
-    _id: "ek65j56k",
-    name: "7 Up 1.5L",
-    category: "Drinks",
-    price: 76,
-    offerPrice: 71,
-    image: [seven_up_image_1],
-    description: [
-      "Refreshing lemon-lime flavor",
-      "Perfect for refreshing",
-      "Best served chilled",
-    ],
-    createdAt: "2025-03-25T07:17:46.018Z",
-    updatedAt: "2025-03-25T07:18:13.103Z",
-    inStock: true,
-  },
+ 
 
   // Grains
   {
     _id: "ek66j67k",
-    name: "Basmati Rice 5kg",
+    name: "Pahadi Basmati Rice 5kg",
     category: "Grains",
     price: 550,
     offerPrice: 520,
@@ -647,13 +660,13 @@ export const dummyProducts = [
   },
   {
     _id: "bk02b30y",
-    name: "Butter Croissant 100g",
+    name: "Cream-filled Roll 100g",
     category: "Bakery",
     price: 50,
     offerPrice: 45,
     image: [butter_croissant_image],
     description: [
-      "Flaky and buttery",
+      "Flaky and creamy",
       "Freshly baked",
       "Perfect for breakfast or snacks",
     ],
@@ -695,15 +708,15 @@ export const dummyProducts = [
   },
   {
     _id: "bk05e33v",
-    name: "Vanilla Muffins 6 pcs",
+    name: "Pahadi Cup Delight 4 pcs",
     category: "Bakery",
     price: 100,
-    offerPrice: 90,
+    offerPrice: 80,
     image: [vanilla_muffins_image],
     description: [
       "Soft and fluffy",
       "Perfect for a quick snack",
-      "Made with real vanilla",
+      "Made with quality ingredients, blending natural sweetness with rich flavor",
     ],
     createdAt: "2025-03-25T07:17:46.018Z",
     updatedAt: "2025-03-25T07:18:13.103Z",
@@ -730,11 +743,11 @@ export const dummyProducts = [
   },
   {
     _id: "in02g26t",
-    name: "Top Ramen 270g",
+    name: "Wai-Wai 270g",
     category: "Instant",
     price: 45,
     offerPrice: 40,
-    image: [top_ramen_image],
+    image: [waiwai],
     description: [
       "Quick and easy to prepare",
       "Spicy and flavorful",
