@@ -1,2 +1,5 @@
-# Pahadi-Bazaar
-Pahadi Bazar is a React-based frontend for an e-commerce platform focusing on traditional pahadi products. It includes features like product listing, cart management, and address form handling with a responsive design.
+# Pahadi Bazaar
+Pahadi Bazaar is a full-stack e-commerce application built using **React**, **Node.js**, **Express**, and **MongoDB**.  
+It supports **Cash on Delivery (COD)** and **Stripe payments**, allowing users to browse products, place orders, track order status, and manage their cart.  
+This project also includes an admin dashboard for order management and monitoring sales.
+
